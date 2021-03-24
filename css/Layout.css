@@ -1,0 +1,40 @@
+body {
+    max-width: 480px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  @media(min-width: 768px){
+    body {
+      max-width: 960px;
+    }
+    main {
+      max-width: 760px;
+    }
+  }
+  
+  header, article, main * { /* the '*' means apply it to all main sections*/
+    border: 1px solid black;
+  }
+  
+  main {
+    overflow: hidden; /*to ensure that the main section wont overflow out */
+    width: 100%;
+  }
+  
+  article {
+    float: left;
+    width: 100%;
+  }
+  
+  section {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  footer {
+    float: left;
+    width: 100%;
+  }
+  
